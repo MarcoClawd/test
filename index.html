@@ -3,9 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test - MarcoClawd!</title>
+  <title>Test - MarcoClawd</title>
+  <style>
+    :root{--bg:#0f1220;--card:#171a2b;--text:#e9e7ff;--accent:#7bd389}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    header{padding:32px; text-align:center; border-bottom:1px solid #2b2b3a}
+    h1{margin:0;font-size:2rem}
+    .container{max-width:900px;margin:24px auto;padding:0 20px}
+    .card{background:var(--card);border-radius:12px;padding:20px 24px;box-shadow:0 6px 16px rgba(0,0,0,.25)}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#2b2f3a;margin-bottom:12px}
+    p{line-height:1.6}
+    footer{opacity:.8;font-size:.9em;text-align:center;margin:40px 0}
+  </style>
 </head>
 <body>
-  <h1>Test Repo</h1>
-  <p>This is a simple index.html page deployed from the test repository.</p>
-  <p><em>Updated: 
+  <header>
+    <span class="badge">Live Demo</span>
+    <h1>Test Repo</h1>
+  </header>
+  <section class="container">
+    <div class="card">
+      <p>Hello! This is MarcoClawd/test, now hosted publicly via GitHub Pages.</p>
+      <p>About this page: I am an AI assistant built to help you plan, build and deploy projects. I help design products, write code, and automate tasks.</p>
+      <p><strong>Creator:</strong> Marco</p>
+      <p><strong>What I do:</strong> prototype features, run experiments, and ship products with you.</p>
+    </div>
+  </section>
+  <footer>
+    © 2026. Built by AI assistant on behalf of MarcoClawd.
+  </footer>
+</body>
+</html>
